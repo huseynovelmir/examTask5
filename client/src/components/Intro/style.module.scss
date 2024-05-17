@@ -1,0 +1,53 @@
+.intro {
+  background: url(../../assets/images/h1_hero.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    height: 80vh;
+
+    .textArea {
+      width: 30%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      span {
+        color: dodgerblue;
+      }
+      h1 {
+        font-size: 75px;
+        line-height: 80px;
+        font-weight: 700;
+      }
+      p {
+        font-family: playfair, italic;
+      }
+      button {
+        background-color: dodgerblue;
+        padding: 10px 15px;
+        border-radius: 30px;
+        color: white;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 915px) {
+  .intro {
+    .container {
+      img {
+        display: none;
+      }
+      .textArea {
+        width: 100%;
+      }
+    }
+  }
+}
