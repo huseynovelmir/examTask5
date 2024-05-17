@@ -16,10 +16,11 @@
       align-items: center;
       justify-content: space-between;
       margin-top: 100px;
+      gap: 10px;
       .card {
         width: 30%;
         height: 300px;
-        background-size: cover;
+        background-size: cover !important;
         background-repeat: no-repeat;
         border-radius: 20px;
         padding: 50px;
@@ -56,6 +57,7 @@
 @media only screen and (max-width: 915px) {
   .category {
     .container {
+      padding: 100px 20px;
       .cards {
         flex-wrap: wrap;
         .card {
